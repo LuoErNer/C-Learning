@@ -32,10 +32,10 @@
 class Solution {
     public int[] sortArrayByParityII(int[] A) {
         int n = A.length;
-        int [] ans = new int [n];
+        int[] ans = new int[n];
 
         int i = 0;
-        for(int x :A ){
+        for(int x : A ){
             if (x % 2 == 0){
                 ans[i] = x;
                 i += 2;
@@ -56,3 +56,7 @@ class Solution {
     }
 }
 //leetcode submit region end(Prohibit modification and deletion)
+//数组的声明：int[] ans = new int[n];
+//代码格式及其缩进
+//对数组的遍历：for(int x : A)
+//自加：i += 2;
